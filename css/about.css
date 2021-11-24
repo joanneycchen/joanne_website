@@ -1,0 +1,166 @@
+body{
+    font-family: "Rubik", sans-serif;
+    background:#FFEDED;
+    color: black;
+}
+.skip a{
+    background: white;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+    left: 0;
+    padding: 5px;   
+    position: absolute;
+    top: -40px;
+  }
+  
+    .skip a:focus{
+    top: 0px;
+    color: #000000;
+  }  
+
+.intro{
+    width:80%;
+    text-align: center;
+    margin: auto;
+}
+
+h1{
+    font-size: 2em;
+    text-align: left;
+    padding:10px;
+    display: inline-flex;
+}
+
+
+/* h2{
+    font-size: 1.5em;
+    font-style: italic;
+    color:#3267C8;
+    text-align: left;
+    margin:1em;
+} */
+h2{
+    font-size: 1em;
+
+    text-align: left;
+    margin:1em 0 0 0.2em;
+
+
+}
+
+p{
+    font-size: 1em; 
+    padding-top: 5px;
+    text-align: left;
+}
+ ul>li{
+
+    padding:0.15em;
+ }
+img{
+    /* display: block; */
+    margin: auto;
+    /* width: 550px; */
+}
+#logo{
+    width: fit-content;
+}
+header{
+    top:0;
+    margin:2em ;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header>a{
+    font-size: 2em;
+}
+
+
+
+#me{
+    object-fit:contain;
+    width: 70%;
+    margin-bottom: 1em;
+}
+/* .container{
+  
+  width: 50%;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+
+  grid-template-rows: repeat(2,1fr);
+  grid-row-gap: 0.2rem;
+  grid-column-gap: 0.2rem;
+  overflow: scroll;
+  margin: 0 auto;
+} */
+/* .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;;
+}
+.container  img{
+    object-fit: cover;
+    width:300px;
+    height: 200px;
+} */
+
+
+nav{
+    display: flex;
+}
+.nav_links{
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  
+  .nav_item a{
+    color: #3267C8;
+    text-decoration: none;
+    padding: 0.25em;
+  }
+  
+  .nav_item a:hover, a:focus{
+  
+    color: #FD9778;
+    text-decoration: underline;
+
+  }
+  .show a{
+    color: black;
+    border-radius: 10px ;
+    background-color: #FD9778;
+  }
+
+
+footer {
+    background-color: #5FA0A0;
+    color: black;
+    padding: 0.8em;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1em;
+    grid-row: 12/-1;
+    margin-top: 5em;
+  
+}
+footer p{
+    text-align: center;
+    padding: 0px 10px 10px 0px;
+ 
+}
+
+@media screen and (min-width: 850px){
+    p, h2{
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+}
