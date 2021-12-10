@@ -23,7 +23,16 @@ body{
     width:80%;
     text-align: center;
     margin: auto;
+   
 }
+
+.introparagraph{
+    background-color: white;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    border-radius: 2em;
+}
+
 
 h1{
     font-size: 2em;
@@ -33,13 +42,7 @@ h1{
 }
 
 
-/* h2{
-    font-size: 1.5em;
-    font-style: italic;
-    color:#3267C8;
-    text-align: left;
-    margin:1em;
-} */
+
 h2{
     font-size: 1em;
 
@@ -62,6 +65,7 @@ img{
     /* display: block; */
     margin: auto;
     /* width: 550px; */
+
 }
 #logo{
     width: fit-content;
@@ -78,13 +82,41 @@ header>a{
     font-size: 2em;
 }
 
+.parallax {
+    /* The image used */
+    background-image: url(../images/me.jpeg);
+  
+    /* Set a specific height */
+    min-height: 600px;
+    margin: auto;
+    object-fit:contain;
+    width: 70%;
+    margin-bottom: 1em;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
 
 
 #me{
     object-fit:contain;
     width: 70%;
     margin-bottom: 1em;
+         /* Create the parallax scrolling effect */
+
 }
+
+@media (prefers-reduced-motion: reduce){
+
+    .skip a{
+      -webkit-transition: none; /* sets to default setting */
+      transition: none;        /* sets to default setting */
+    }
+  }
 /* .container{
   
   width: 50%;
