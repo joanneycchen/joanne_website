@@ -149,6 +149,16 @@ footer p{
     padding: 0px 10px 10px 0px;
  
 }
+@media screen and (min-width: 600px){
+    nav{
+      padding-right: 2em;
+    }
+  }
+@media screen and (min-width: 850px){
+    nav{
+      padding-right: 3em;
+    }
+}
 
 @media (prefers-reduced-motion: reduce){
 
@@ -157,3 +167,4 @@ footer p{
       transition: none;        /* sets to default setting */
     }
   }
+
