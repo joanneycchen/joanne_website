@@ -222,3 +222,37 @@ footer p{
     }
 
 }
+@media screen and (min-width: 600px){
+
+    .grid_item img{
+        width:150px;
+        height:150px;
+        object-fit:cover;
+        object-position: center;
+    }
+    .grid_parent{
+        display: grid;
+        justify-content:  dcenter;
+        align-items: center;
+        width:100vw;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 150px));
+        column-gap: 8px;
+        row-gap: 8px;
+        margin-top: 1em;   
+    }
+    h1{
+        font-size: 1em;
+    }
+
+    h2{
+        font-size: 0.8em;
+        font-style: italic;
+        color:#3267C8;
+        text-align: center;
+        margin:0.2em ;
+    }
+  
+
+      
+}
+
