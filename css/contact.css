@@ -38,6 +38,7 @@ h2{
 p{
     font-size: 1em; 
     padding-top: 15px;
+    text-align: center;
 }
  ul>li{
 
@@ -148,3 +149,11 @@ footer p{
     padding: 0px 10px 10px 0px;
  
 }
+
+@media (prefers-reduced-motion: reduce){
+
+    .skip a{
+      -webkit-transition: none; /* sets to default setting */
+      transition: none;        /* sets to default setting */
+    }
+  }
