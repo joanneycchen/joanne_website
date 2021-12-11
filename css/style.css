@@ -200,8 +200,23 @@ footer p{
     vertical-align: center;
   }
 
+  @media (prefers-reduced-motion: reduce){
 
+    .skip a{
+      -webkit-transition: none; /* sets to default setting */
+      transition: none;        /* sets to default setting */
+    }
+  }
+
+  @media screen and (min-width: 600px){
+    nav{
+      padding-right: 2em;
+    }
+  }
 @media screen and (min-width: 850px){
+    nav{
+      padding-right: 3em;
+    }
     header{
         flex-direction: row; 
     }
